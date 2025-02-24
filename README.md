@@ -29,28 +29,30 @@ Permite **transcribir, analizar y procesar información** utilizando tecnología
 
 ## 📂 Estructura del Proyecto
 
-📁 CRM-AI-Sandoz 
-    ├── 📄 README.md # Documentación del proyecto 
-    ├── 📄 requirements.txt # Dependencias del proyecto 
-    ├── 📁 src # Código fuente principal │ 
-        ├── transcriptor_Azure_vf.py # Script principal para transcripción │ 
-        ├── otros_scripts.py # Otros scripts auxiliares 
-    ├── 📁 data # Archivos de datos utilizados │ ├
-        ── dataset.csv │ 
-        ├── processed_data.pkl 
-    ├── 📁 assets # Logos, imágenes y gráficos │ 
-        ├── Logo_Sandoz.png ├
-    ── 📁 .github # Configuración opcional para GitHub Actions, templates, etc.
+- **CRM-AI-Sandoz/**
+  - `README.md` → Documentación del proyecto
+  - `requirements.txt` → Dependencias del proyecto
+  - **src/** (Código fuente principal)
+    - `transcriptor_Azure_vf.py` → Script principal para transcripción
+    - `otros_scripts.py` → Otros scripts auxiliares
+  - **data/** (Archivos de datos utilizados)
+    - `dataset.csv`
+    - `processed_data.pkl`
+  - **assets/** (Logos, imágenes y gráficos)
+    - `Logo_Sandoz.png`
+  - **.github/** (Configuración opcional para GitHub Actions, templates, etc.)
 
 ---
 
-👥 Colaboradores
-Este proyecto fue desarrollado como parte de nuestro Trabajo de Fin de Máster.
-Equipo:
 
-Sixto Ramírez Parras
-Carlos Juárez García
-Beatriz	Moraga Galan
-Francisco Jordán Medina
+## 👥 Colaboradores  
+
+Este proyecto fue desarrollado como parte de nuestro **Trabajo de Fin de Máster**.  
+
+🔹 **Equipo:**  
+- 🧑‍💻 **Sixto Ramírez Parras**  
+- 🧑‍💻 **Carlos Juárez García**  
+- 👩‍💻 **Beatriz Moraga Galán**  
+- 🧑‍💻 **Francisco Jordán Medina** 
 
 
