@@ -14,6 +14,8 @@ Permite **transcribir, analizar y procesar información** utilizando tecnología
 📍 **Accede a la aplicación en Azure**:  
 👉 **[CRM-AI Web App](https://crmai-gqfacqdnf7hmdtav.westeurope-01.azurewebsites.net/)**  
 
+usuario: lauragomez
+contraseña: realmadrid
 ---
 
 📊 Funcionalidades
@@ -44,8 +46,8 @@ Este proyecto fue desarrollado como parte de nuestro Trabajo de Fin de Máster.
 Equipo:
 
 Sixto Ramírez Parras
-Carlos	Juárez	García
-Beatriz	Moraga	Galan
-Francisco	Jordán	Medina
+Carlos Juárez García
+Beatriz	Moraga Galan
+Francisco Jordán Medina
 
 
