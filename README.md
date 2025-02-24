@@ -11,12 +11,15 @@ Permite **transcribir, analizar y procesar información** utilizando tecnología
 - ☁️ **Azure Cognitive Services** para transcripción de audio
 - 📊 **Machine Learning** para predicción y análisis de datos
 
-📍 **Accede a la aplicación en Azure**:  
-👉 **[CRM-AI Web App](https://crmai-gqfacqdnf7hmdtav.westeurope-01.azurewebsites.net/)**  
+## 🌍 Acceso a la Aplicación en Azure  
 
-usuario: lauragomez
-contraseña: realmadrid
----
+🚀 **Prueba la aplicación en vivo:**  
+👉 [**CRM-AI Web App**](https://crmai-gqfacqdnf7hmdtav.westeurope-01.azurewebsites.net/)  
+
+🔐 **Credenciales de Acceso:**  
+- 👤 **Usuario:** `lauragomez`  
+- 🔑 **Contraseña:** `realmadrid` 
+
 
 📊 Funcionalidades
 ✔ Transcripción de audio en texto usando Azure Speech-to-Text
