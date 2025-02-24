@@ -3,8 +3,8 @@
 ![Logo del Proyecto](assets/Logo_Sandoz.png)
 
 ## 🚀 Descripción
-Este proyecto es una solución basada en **Inteligencia Artificial** para el análisis y predicción de datos en un sistema CRM.  
-Permite **transcribir, analizar y procesar información** utilizando tecnologías en la nube de **Microsoft Azure**.
+Este proyecto es un sistema **CRM** enriquecido con **Inteligencia Artificial**, que combina la **transcripción de audio** (usando OpenAI Whisper) y la **gestión de datos** (visitas, historial, ventas, etc.) en una interfaz creada con **Gradio**. Además, implementa consultas de tipo _Retrieval-Augmented Generation_ (RAG) con un **VectorStore FAISS** y modelos de **OpenAI** vía **LangChain**.
+
 
 🔹 **Tecnologías utilizadas**:
 - 🛠️ **Python**, `pandas`, `sklearn`, `flask`
@@ -21,13 +21,29 @@ Permite **transcribir, analizar y procesar información** utilizando tecnología
 - 🔑 **Contraseña:** `realmadrid` 
 
 
-📊 Funcionalidades
-✔ Transcripción de audio en texto usando Azure Speech-to-Text
-✔ Preprocesamiento de datos CRM para análisis
-✔ Generación de reportes y visualización de insights
-✔ Integración con Machine Learning para predicciones
+## 📊 Funcionalidades
+
+- 🎙️ **Transcripción Automática con OpenAI Whisper**  
+  Convierte archivos de audio en texto de manera precisa, optimizando el registro de visitas y la captura de insights sin esfuerzo manual.
+
+- 🧠 **Análisis Semántico con GPT-4**  
+  Extrae y valida automáticamente información clave (cuenta, contacto, temas discutidos), además de generar resúmenes coherentes que condensan la visita en pocos párrafos.
+
+- 📂 **Gestión y Seguimiento de Visitas**  
+  Almacena cada interacción en un CSV histórico, manteniendo un registro detallado de puntos clave, contactos y compromisos. La información se indexa en FAISS para búsquedas semánticas eficientes.
+
+- 🤝 **Consultas Inteligentes (RAG)**  
+  Realiza preguntas sobre la cuenta y el historial de ventas; el sistema recupera contexto relevante y responde con GPT-4, ofreciendo recomendaciones estratégicas y conclusiones basadas en la información disponible.
+
+- 📈 **Dashboard Interactivo**  
+  Muestra, con visualizaciones integradas (matplotlib y plotly), el rendimiento comercial: visitas por representante, facturación por cuenta/producto y otros gráficos esenciales para la toma de decisiones.
+
+- 🔐 **Sistema de Login Sencillo**  
+  Controla el acceso y la modificación de datos mediante un archivo `Usuarios.csv`, garantizando que solo usuarios autorizados puedan gestionar la información sensible.
+
 
 ## 📂 Estructura del Proyecto
+
 
 - **CRM-AI-Sandoz/**
   - `README.md` → Documentación del proyecto
@@ -43,7 +59,6 @@ Permite **transcribir, analizar y procesar información** utilizando tecnología
   - **.github/** (Configuración opcional para GitHub Actions, templates, etc.)
 
 ---
-
 
 ## 👥 Colaboradores  
 
