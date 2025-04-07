@@ -1,6 +1,6 @@
 # 🏥 CRM-AI Sandoz
 
-![Logo del Proyecto](assets/Logo_Sandoz.png)
+![Logo del Proyecto](assests/Logo_Sandoz.png)
 
 ## 🚀 Descripción
 Este proyecto es un sistema **CRM** enriquecido con **Inteligencia Artificial**, que combina la **transcripción de audio** (usando OpenAI Whisper) y la **gestión de datos** (visitas, historial, ventas, etc.) en una interfaz creada con **Gradio**. Además, implementa consultas de tipo _Retrieval-Augmented Generation_ (RAG) con un **VectorStore FAISS** y modelos de **OpenAI** vía **LangChain**.
