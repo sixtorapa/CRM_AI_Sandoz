@@ -14,7 +14,7 @@ Este proyecto es un sistema **CRM** enriquecido con **Inteligencia Artificial**,
 ## 🌍 Acceso a la Aplicación en Azure  
 
 🚀 **Prueba la aplicación en vivo:**  
-👉 [**CRM-AI Web App**](https://crmai-gqfacqdnf7hmdtav.westeurope-01.azurewebsites.net/)  
+👉 [**CRM-AI Web App**](https://huggingface.co/spaces/sixtorapa/CRM-AI-SANDOZ)  
 
 🔐 **Credenciales de Acceso:**  
 - 👤 **Usuario:** `lauragomez`  
