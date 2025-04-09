@@ -3,13 +3,8 @@
 ![Logo del Proyecto](assests/Logo_Sandoz.png)
 
 ## 🚀 Descripción
-Este proyecto es un sistema **CRM** enriquecido con **Inteligencia Artificial**, que combina la **transcripción de audio** (usando OpenAI Whisper) y la **gestión de datos** (visitas, historial, ventas, etc.) en una interfaz creada con **Gradio**. Además, implementa consultas de tipo _Retrieval-Augmented Generation_ (RAG) con un **VectorStore FAISS** y modelos de **OpenAI** vía **LangChain**.
+Este proyecto es un sistema **CRM** enriquecido con **Inteligencia Artificial**, que combina la **transcripción de audio** (usando OpenAI Whisper) y la **gestión de datos** (visitas, historial, ventas, etc.) en una interfaz creada con **Gradio**. Además, implementa consultas de tipo _Retrieval-Augmented Generation_ (RAG) con un **VectorStore FAISS** y modelos de **OpenAI** vía **LangChain**. Despliegue utilizando huggingface. 
 
-
-🔹 **Tecnologías utilizadas**:
-- 🛠️ **Python**, `pandas`, `sklearn`, `flask`
-- ☁️ **Azure Cognitive Services** para transcripción de audio
-- 📊 **Machine Learning** para predicción y análisis de datos
 
 ## 🌍 Acceso a la Aplicación en Azure  
 
