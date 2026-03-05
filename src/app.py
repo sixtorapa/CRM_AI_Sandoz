@@ -600,8 +600,18 @@ with gr.Blocks() as demo:
     # ===================================================
     with gr.Tab("Login") as tab_login:
         gr.Markdown("## Asistente CRM AI Sandoz - Login")
-        username_input = gr.Textbox(label="Usuario")
-        password_input = gr.Textbox(label="Contraseña", type="password")
+
+        # ✅ Ayuda / credenciales de ejemplo
+        gr.Markdown(
+            """
+    **Ayuda (credenciales de acceso):**
+    - **Usuario:** `lauragomez`
+    - **Contraseña:** `realmadrid`
+            """.strip()
+        )
+
+        username_input = gr.Textbox(label="Usuario", placeholder="Ej: lauragomez")
+        password_input = gr.Textbox(label="Contraseña", type="password", placeholder="Ej: realmadrid")
         login_button = gr.Button("Iniciar sesión")
         login_message = gr.Markdown()
         
